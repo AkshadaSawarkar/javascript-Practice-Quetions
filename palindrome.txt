@@ -1,0 +1,15 @@
+var num=2112;
+var temp=num;
+var result=0;
+while (num!=0){
+        var rem=num %10;
+        result = result*10+rem;
+        var num=Math.floor(num/10);
+      
+}
+if(temp==result){
+console.log("This is palindrome number");
+}else{
+     console.log("This is not a palindrome number");
+
+}
